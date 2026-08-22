@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "MG100DFX-TH")
-		(rev "0.3")
+		(rev "0.4")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -1523,7 +1523,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1.5K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "c4919521-aa88-48e7-84dc-e123390bed42")
@@ -2498,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Description" "Electrolytic Bulk Capacitor"
+		(property "Description" "Unpolarized capacitor, small symbol - X7R MLCC"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2523,21 +2523,16 @@
 				)
 			)
 		)
-		(property "Notes" "25V min, 35V better"
-			(at -83.794888 177.5 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2b1c7f50-a7b6-4e03-b751-10d8b54fdfce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0fe87e78-1711-4b3c-8feb-87e03b875981")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4634,7 +4629,7 @@
 				)
 			)
 		)
-		(property "Description" "Electrolytic Bulk Capacitor"
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4658,21 +4653,16 @@
 				)
 			)
 		)
-		(property "Notes" "25V min, 35V better"
-			(at -109.918071 171.58906 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a148bab0-65bd-4baf-85a6-cecf13354c39")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "CP_*")
 		(path "/e22049b3-5fc6-4b4e-ab39-810a88b93af4")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7034,7 +7024,7 @@
 				)
 			)
 		)
-		(property "Description" "Electrolytic Bulk Capacitor"
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7059,21 +7049,16 @@
 				)
 			)
 		)
-		(property "Notes" "25V min, 35V better - Base cap for multiplier"
-			(at -109.918071 164.78897 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "72cd521d-ca6f-47f9-9725-76101dc216d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "CP_*")
 		(path "/9ccfa9ac-753d-4226-9c37-39d2ec4a263f")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9887,7 +9872,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "fd90a104-7cfe-434b-830d-aef28ba427c7")
@@ -12228,7 +12213,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "33K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "49fad212-44f4-47b6-8b86-04b2f22c35e5")
@@ -12691,21 +12676,16 @@
 				)
 			)
 		)
-		(property "Notes" "Cap Multiplier Base (See Note)"
-			(at 156.913912 109.467584 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e5fcf23a-3eab-4ff8-ac6a-9ae71b247a6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/7c2a4e84-b470-47bd-9946-71729b5d1c16")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14662,7 +14642,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "1961b4f1-b812-42d9-a3c2-73f959a04a1c")
@@ -15405,7 +15385,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "8caac115-ad83-4c71-9b8c-f270da11a820")
@@ -16074,7 +16054,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "01ac4657-bead-46d7-a9cd-0983ef9504e9")
@@ -17351,7 +17331,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/bcfb6ea6-4749-44b7-b72a-77c9664260da")
+		(path "/44d019fb-daab-4ac9-b047-43e4bf28df52")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
 		(units
@@ -19913,7 +19893,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.8K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "7b187748-557f-45fe-b85b-11d23e81036d")
@@ -21008,7 +20988,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/d576283a-1668-48b9-8d86-6986d8ae1396")
+		(path "/9c4b63ba-cbcf-4ddd-b030-5e8daa93d889")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
 		(units
@@ -21299,7 +21279,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "4.7K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "2fb4ed22-e55b-4083-b4c0-6fa3ccdc9800")
@@ -21523,7 +21503,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "B1M"
+		(property "Value" "A1M"
 			(at -6.604 -2.286 0)
 			(layer "F.SilkS")
 			(uuid "ac21d256-71b7-438a-87ed-b75e3d5c11cf")
@@ -22265,7 +22245,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3.3K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "8e7f8004-514d-452e-9aaa-2af017d3aa30")
@@ -22987,7 +22967,7 @@
 				(justify right top mirror)
 			)
 		)
-		(property "Value" "ON-ON"
+		(property "Value" "OD1/OD2"
 			(at -4 0.03581 90)
 			(layer "F.SilkS")
 			(uuid "a7303654-dba7-4437-ab71-dc8931537111")
@@ -23055,19 +23035,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78921bd2-44e0-4dcd-8876-f5982fa8b3b9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Control" "OD1/OD2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8d014e9-9d82-4abd-80df-1d8337e7c1a5")
 			(effects
 				(font
 					(size 1 1)

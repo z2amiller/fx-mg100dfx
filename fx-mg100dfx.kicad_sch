@@ -6529,7 +6529,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3.3K"
 			(at 163.83 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7293,7 +7293,7 @@
 				)
 			)
 		)
-		(property "Value" "B1M"
+		(property "Value" "A1M"
 			(at 135.382 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,7 +7541,7 @@
 				)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "4.7K"
 			(at 65.024 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +7631,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47K"
 			(at 109.22 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8190,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7K"
 			(at 163.83 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,7 +10344,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7K"
 			(at 191.77 153.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,7 +10928,7 @@
 				)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.8K"
 			(at 152.4 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12092,7 +12092,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22K"
 			(at 101.346 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14018,7 +14018,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "33K"
 			(at 97.79 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14108,7 +14108,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1.5K"
 			(at 153.416 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
