@@ -2498,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol - X7R MLCC"
+		(property "Description" "Electrolytic Bulk Capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2523,16 +2523,21 @@
 				)
 			)
 		)
+		(property "Notes" "25V min, 35V better"
+			(at -83.794888 177.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2b1c7f50-a7b6-4e03-b751-10d8b54fdfce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0fe87e78-1711-4b3c-8feb-87e03b875981")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4629,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Electrolytic Bulk Capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4653,16 +4658,21 @@
 				)
 			)
 		)
+		(property "Notes" "25V min, 35V better"
+			(at -109.918071 171.58906 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a148bab0-65bd-4baf-85a6-cecf13354c39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/e22049b3-5fc6-4b4e-ab39-810a88b93af4")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7024,7 +7034,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Electrolytic Bulk Capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7049,16 +7059,21 @@
 				)
 			)
 		)
+		(property "Notes" "25V min, 35V better - Base cap for multiplier"
+			(at -109.918071 164.78897 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "72cd521d-ca6f-47f9-9725-76101dc216d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/9ccfa9ac-753d-4226-9c37-39d2ec4a263f")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12676,16 +12691,21 @@
 				)
 			)
 		)
+		(property "Notes" "Cap Multiplier Base (See Note)"
+			(at 156.913912 109.467584 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e5fcf23a-3eab-4ff8-ac6a-9ae71b247a6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7c2a4e84-b470-47bd-9946-71729b5d1c16")
 		(sheetname "/")
 		(sheetfile "fx-mg100dfx.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22967,8 +22987,8 @@
 				(justify right top mirror)
 			)
 		)
-		(property "Value" "OD1/OD2"
-			(at 2.55 0.03581 90)
+		(property "Value" "ON-ON"
+			(at -4 0.03581 90)
 			(layer "F.SilkS")
 			(uuid "a7303654-dba7-4437-ab71-dc8931537111")
 			(effects
@@ -23035,6 +23055,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78921bd2-44e0-4dcd-8876-f5982fa8b3b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Control" "OD1/OD2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8d014e9-9d82-4abd-80df-1d8337e7c1a5")
 			(effects
 				(font
 					(size 1 1)
